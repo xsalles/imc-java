@@ -42,10 +42,8 @@ public class imcJOPTION {
                 else if (imc < 19)
                     JOptionPane.showMessageDialog(null, "\nAbaixo do normal");
                 break;
-
             default:
                 JOptionPane.showMessageDialog(null, "Gênero não reconhecido");
-
         }
 
     }
