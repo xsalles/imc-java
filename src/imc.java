@@ -6,7 +6,7 @@ public class imc {
         double imc, peso, altura;
         String genero;
 
-        System.out.println("\nDigite o valor da sua altura\n");
+        System.out.println("\nDigite o valor da sua altura em centímetros\n");
         altura = sc.nextDouble();
 
         System.out.println("\nDigite o valor do seu peso\n");
@@ -42,9 +42,10 @@ public class imc {
                     System.out.println("\nNormal");
                 else if (imc < 19)
                     System.out.println("\nAbaixo do normal");
-
-            default: System.out.println("Gênero não reconhecido");
                 break;
+
+            default:
+                System.out.println("Gênero não reconhecido");
         }
 
         sc.close();
