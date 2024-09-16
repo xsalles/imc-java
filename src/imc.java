@@ -6,7 +6,7 @@ public class imc {
         double imc, peso, altura;
         String genero;
 
-        System.out.println("\nDigite o valor da sua altura em centímetros\n");
+        System.out.println("\nDigite o valor da sua altura com virgula\n");
         altura = sc.nextDouble();
 
         System.out.println("\nDigite o valor do seu peso\n");
